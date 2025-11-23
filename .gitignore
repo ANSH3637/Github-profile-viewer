@@ -1,0 +1,58 @@
+# --------------------------------------------------
+# Node Modules
+# --------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------------------------------------
+# Parcel Bundler
+# --------------------------------------------------
+.cache/
+.parcel-cache/
+dist/
+
+# --------------------------------------------------
+# Environment Files
+# --------------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Sample env file should NOT be ignored
+!.env.sample
+
+# --------------------------------------------------
+# Logs
+# --------------------------------------------------
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+
+# --------------------------------------------------
+# IDE / Editor Files
+# --------------------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# --------------------------------------------------
+# OS generated files
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------------------------------
+# Optional: Backend (Node/Express)
+# --------------------------------------------------
+/backend/node_modules/
+/backend/package-lock.json
+/backend/dist
+/backend/.env
+/backend/logs/
